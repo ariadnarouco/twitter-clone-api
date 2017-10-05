@@ -27,9 +27,64 @@ Users (./users)
 + response
 
 ```
+[{
+  _id : "24534656FS3252524SRDER435343FE",
+  "name" : "Juan",
+  "last_name" : "Vicente"
+},
+{
+  _id : "24534656FS3252524SRDER435343FE",
+  "name" : "Juan",
+  "last_name" : "Vicente"
+}]
+```
+
+
+
+####Get One user[PUT]
++ request 
+  + params
+  + header
+    + x-access-token -credenciales
+  + body
+    
+    ```
 {
   _id : "24534656FS3252524SRDER435343FE",
   "name" : "Juan",
   "last_name" : "Vicente"
 }
 ```
+
++ response
+
+
+####Get One user[PUT]
++ request 
+  + params
+  + header
+    + x-access-token -credenciales
+  + body
+    
+    ```
+{
+  _id : "24534656FS3252524SRDER435343FE",
+  "name" : "Juan",
+  "last_name" : "Vicente"
+}
+```
+
+
+####Delete One user (./users/:id) [DELETE]
++ request 
+  + params
+    + id (This is the id of the user)
+  + header
+    + x-access-token -credenciales
+  + body
++ response (204)
+
+
+
+
+
