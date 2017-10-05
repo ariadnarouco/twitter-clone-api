@@ -22,5 +22,14 @@ Users (./users)
   + params
     + id (This is the id of the user)
   + header
+    + x-access-token -credenciales
   + body
 + response
+
+```
+{
+  _id : "24534656FS3252524SRDER435343FE",
+  "name" : "Juan",
+  "last_name" : "Vicente"
+}
+```
